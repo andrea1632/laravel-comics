@@ -23,6 +23,10 @@ nav{
         text-decoration: none;
         color: black;
         text-transform: uppercase;
+        &:hover{
+            padding-bottom: 40px;
+            border-bottom: 4px solid #0282F9;
+        }
     }
     ul{
         width: 100%;

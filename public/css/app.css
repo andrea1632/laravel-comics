@@ -37,6 +37,10 @@ nav a {
   color: black;
   text-transform: uppercase;
 }
+nav a:hover {
+  padding-bottom: 40px;
+  border-bottom: 4px solid #0282F9;
+}
 nav ul {
   width: 100%;
   display: flex;
