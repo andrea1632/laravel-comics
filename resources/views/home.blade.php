@@ -10,5 +10,6 @@
 <body>
     @include('partials.header')
     @include('partials.homeMain')
+    @include('partials.footer')
 </body>
 </html>

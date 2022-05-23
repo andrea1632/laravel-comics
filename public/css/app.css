@@ -131,3 +131,74 @@ nav input:active {
   margin-right: 10px;
   width: 50px;
 }
+
+li {
+  list-style: none;
+  text-align: left;
+  font-size: 0.8em;
+  color: #959595;
+}
+
+h4 {
+  margin: 20px 0;
+  color: white;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0 40px;
+}
+
+.containerBottom {
+  display: flex;
+  padding: 10px 0;
+  width: 80%;
+}
+
+.footer-bg {
+  background-image: url("../images/footer-bg.jpg");
+  height: 400px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 250px;
+}
+
+.footerImg {
+  background-image: url("../images/dc-logo-bg.png");
+  height: 100%;
+  width: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footerBottom {
+  background-color: #303030;
+}
+.footerBottom .container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerBottom a {
+  padding: 10px;
+  border: 2px solid #0282F9;
+  text-decoration: none;
+  color: white;
+}
+.footerBottom h4 {
+  color: #0282F9;
+}
+.footerBottom .socials {
+  display: flex;
+  align-items: center;
+}
+.footerBottom .socials div {
+  margin: 0 10px;
+}
