@@ -9,5 +9,6 @@
 </head>
 <body>
     @include('partials.header')
+    @include('partials.homeMain')
 </body>
 </html>
