@@ -17,3 +17,6 @@
 </body>
 </html> --}}
 @extends('layout.layout')
+@section ('content')
+    @include('partials.homeMain')
+@endsection

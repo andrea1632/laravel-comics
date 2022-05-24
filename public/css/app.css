@@ -206,3 +206,8 @@ h4 {
 .footerBottom .socials div {
   margin: 0 10px;
 }
+
+.blue-line {
+  height: 100px;
+  background-color: #0282F9;
+}

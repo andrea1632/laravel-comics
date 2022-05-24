@@ -451,7 +451,7 @@ Route::get('/prodotti/{id}', function ($id) {
             ],
         ],
     ];
-    if( is_numeric($id) && $id < count($data) && $id > 0){
+    if( is_numeric($id) && $id < count($data) && $id >= 0){
         $prodotto = $data[$id];
         return view('prodotto', ['comics'=>$data] );
     } else{

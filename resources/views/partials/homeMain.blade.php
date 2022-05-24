@@ -1,5 +1,3 @@
-<main>
-    
     <div class="jumbotron">
         
     </div>
@@ -27,4 +25,3 @@
         </div>
     </div>
     @include('partials.mainNav')
-</main>
